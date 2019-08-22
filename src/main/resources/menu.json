@@ -1,0 +1,27 @@
+{
+  "button":[
+    {
+      "type":"click",
+      "name":"开班信息",
+      "key":"classinfo"
+    },
+    {
+      "type":"click",
+      "name":"校区地址",
+      "key":"address"
+    },
+    {
+      "name":"学科介绍",
+      "sub_button":[
+        {
+          "type":"view",
+          "name":"Java课程",
+          "url":"http://www.wolfcode.cn/zt/java/index.html"
+        },
+        {
+          "type":"view",
+          "name":"Python课程",
+          "url":"http://www.wolfcode.cn/zt/python/index.html"
+        }]
+    }]
+}
