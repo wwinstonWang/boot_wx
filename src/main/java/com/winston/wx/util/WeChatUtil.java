@@ -25,6 +25,13 @@ public class WeChatUtil {
     public static final String WEB_REFRESHTOKEN_URL="https://api.weixin.qq.com/sns/oauth2/refresh_token?appid="+appID+"&grant_type=refresh_token&refresh_token=%s";
     public static final String WEB_GETUSERINFO_URL="https://api.weixin.qq.com/sns/userinfo?access_token=%s&openid=%s&lang=zh_CN";
 
+    //客服接口
+    public static final String CUSTOMER_ADD_URL="https://api.weixin.qq.com/customservice/kfaccount/add?access_token=%s";
+    public static final String CUSTOMER_MODIFY_URL="https://api.weixin.qq.com/customservice/kfaccount/update?access_token=%s";
+    public static final String CUSTOMER_DEL_URL="https://api.weixin.qq.com/customservice/kfaccount/del?access_token=%s";
+    public static final String CUSTOMER_UPLOADHEADIMG_URL="http://api.weixin.qq.com/customservice/kfaccount/uploadheadimg?access_token=%s&kf_account=%s";
+    public static final String CUSTOMER_GET_URL="https://api.weixin.qq.com/cgi-bin/customservice/getkflist?access_token=%s";
+
     public static String getSha1(String str) {
 
         char hexDigits[] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
